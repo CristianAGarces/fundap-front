@@ -110,7 +110,7 @@ export default function Home() {
             comunitarios y ambientales que aportan al bienestar de comunidades
             afrocolombianas y otras etnias vulnerables. Nuestros proyectos se
             desarrollan con enfoque participativo, étnico, de género y
-            sostenibilidad. Algunos de estos son:
+            sostenibilidad. Algunos de estos son: sdfsdfsdf
           </p>
           <ul className="list-disc list-inside space-y-4 w-2/3 mx-auto text-lg mt-4 text-white flex">
             <li className="text-lg text-white mt-4">
