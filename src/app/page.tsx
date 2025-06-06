@@ -166,7 +166,7 @@ export default function Home() {
             En fundapMacoe creemos firmemente que con dedicacion y firmeza
             podemos ayudar a las mujeres a lograr la igualdad entre genero y
             cumplir sus sueños y metas. Por eso, ofrecemos capacitaciones
-            gratuitas en diversas áreas, incluyendo:
+            gratuitas en diversas áreas, incluyendo:sdsd
           </p>
           <div className="flex w-full justify-center mt-4">
             <Image
