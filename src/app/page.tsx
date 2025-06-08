@@ -174,7 +174,7 @@ export default function Home() {
               alt="Capacitación"
               width={250}
               height={155}
-              className="mx-auto mt-4 shadow-lg"
+              className="mx-auto size-40 mt-4 shadow-lg"
               priority
             />
             <Image
@@ -182,7 +182,7 @@ export default function Home() {
               alt="Capacitación"
               width={250}
               height={155}
-              className="mx-auto mt-4 shadow-lg"
+              className="mx-auto size-40 mt-4 shadow-lg"
               priority
             />
             <Image
@@ -190,7 +190,7 @@ export default function Home() {
               alt="Capacitación"
               width={250}
               height={155}
-              className="mx-auto mt-4 shadow-lg"
+              className="mx-auto size-40 mt-4 shadow-lg"
               priority
             />
             <Image
@@ -198,7 +198,7 @@ export default function Home() {
               alt="Capacitación"
               width={250}
               height={155}
-              className="mx-auto mt-4 shadow-lg"
+              className="mx-auto size-40 mt-4 shadow-lg"
               priority
             />
             <Image
@@ -206,7 +206,7 @@ export default function Home() {
               alt="Capacitación"
               width={250}
               height={155}
-              className="mx-auto mt-4 shadow-lg"
+              className="mx-auto size-40 mt-4 shadow-lg"
               priority
             />
           </div>
