@@ -20,7 +20,7 @@ export default function Home() {
             FundapMacoe es una organización dedicada a la promoción y defensa de
             los derechos de las mujeres afrodescendientes y otras etnias en
             Colombia. Nuestro objetivo es empoderar a estas comunidades y
-            fomentar su desarrollo integral.
+            fomentar su desarrollo integral.sdfsdfsdf
           </p>
           <Image
             src={Imagen6}
@@ -172,7 +172,7 @@ export default function Home() {
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
-              width={280}
+              width={260}
               height={155}
               className="mx-auto mt-4 shadow-lg"
               priority
@@ -180,7 +180,7 @@ export default function Home() {
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
-              width={280}
+              width={260}
               height={155}
               className="mx-auto mt-4 shadow-lg"
               priority
@@ -188,7 +188,7 @@ export default function Home() {
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
-              width={280}
+              width={260}
               height={155}
               className="mx-auto mt-4 shadow-lg"
               priority
@@ -196,7 +196,7 @@ export default function Home() {
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
-              width={280}
+              width={260}
               height={155}
               className="mx-auto mt-4 shadow-lg"
               priority
@@ -204,7 +204,7 @@ export default function Home() {
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
-              width={280}
+              width={260}
               height={155}
               className="mx-auto mt-4 shadow-lg"
               priority
