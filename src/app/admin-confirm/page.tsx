@@ -21,7 +21,10 @@ export default function AdminConfirmPage() {
         if (res.ok && data.token) {
           document.cookie = `token=${data.token}; path=/; secure; samesite=strict`;
           setStatus("Acceso confirmado. Redirigiendo...");
-          setTimeout(() => router.push("/admin-zone"), 1500);
+          setTimeout(
+            () => router.push("https://fundap-front.netlify.app/admin-zone"),
+            1500
+          );
         } else {
           setStatus(data.detail || data.mensaje || "Error al confirmar acceso");
         }
