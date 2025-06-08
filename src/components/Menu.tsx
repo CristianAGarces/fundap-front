@@ -38,7 +38,7 @@ const Menu = () => {
   const handleLogout = () => {
     document.cookie =
       "token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC; secure; samesite=strict";
-    window.location.replace("/login"); // Esto recarga completamente y elimina cualquier estado React residual
+    window.location.replace("/"); // Esto recarga completamente y elimina cualquier estado React residual
   };
 
   const handleMouseEnter = () => {
