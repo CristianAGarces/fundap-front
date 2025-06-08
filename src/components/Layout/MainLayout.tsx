@@ -16,7 +16,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
           <div className="flex items-center justify-between h-full px-6">
             <Link
               href="/"
-              className="size-14 bg-customYellow text-white text-xl hover:bg-customYellow/50 rounded-full flex items-center justify-center transition-colors duration-300"
+              className="size-20 bg-customYellow text-white text-xl hover:bg-customYellow/50 rounded-xl flex items-center justify-center transition-colors duration-300"
               title="Ir a inicio"
             >
               Ir a inicio
