@@ -172,40 +172,40 @@ export default function Home() {
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
-              width={280}
-              height={155}
+              width={265}
+              height={150}
               className="mx-auto size-40 mt-4 shadow-lg"
               priority
             />
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
-              width={280}
-              height={155}
+              width={265}
+              height={150}
               className="mx-auto size-40 mt-4 shadow-lg"
               priority
             />
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
-              width={280}
-              height={155}
+              width={265}
+              height={150}
               className="mx-auto size-40 mt-4 shadow-lg"
               priority
             />
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
-              width={280}
-              height={155}
+              width={265}
+              height={150}
               className="mx-auto size-40 mt-4 shadow-lg"
               priority
             />
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
-              width={280}
-              height={155}
+              width={265}
+              height={150}
               className="mx-auto size-40 mt-4 shadow-lg"
               priority
             />
