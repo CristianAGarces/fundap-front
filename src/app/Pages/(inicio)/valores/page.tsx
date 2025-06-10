@@ -121,7 +121,7 @@ export default function ValoresPage() {
           desafíos y alcanzar su máximo potencial.
         </p>
       </section>
-      <section className="w-full pb-7 flex items-center justify-center bg-white">
+      <section className="w-full pb-7 grid sm:flex-col lg:flex-col md:flex-col items-center justify-center bg-white">
         <Image
           src={"/imagen9.jpg"}
           alt="Visión de FundapMacoe"

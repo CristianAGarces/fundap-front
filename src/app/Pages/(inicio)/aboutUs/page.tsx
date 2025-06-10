@@ -175,7 +175,7 @@ export default function AboutUsPage() {
         quality={80}
         className="my-4 rounded-lg shadow-lg mx-auto"
       />
-      <div className="flex justify-around w-full mt-8 mb-4">
+      <div className="grid sm:flex-col md:flex-col lg:flex-col justify-around w-full mt-8 mb-4 space-y-10">
         <div className="flex space-x-8 justify-center items-center p-3 bg-slate-500/10 rounded-lg cursor-pointer hover:bg-slate-500/20 transition">
           <a
             href="/estatutos.doc"
@@ -186,7 +186,7 @@ export default function AboutUsPage() {
             <p>Click aqui para descargar estatus legales</p>
           </a>
         </div>
-        <div className="flex space-x-8 justify-center items-center p-3 bg-slate-500/10 rounded-lg cursor-pointer hover:bg-slate-500/20 transition">
+        <div className="flex space-x-8 justify-center items-center  p-3 bg-slate-500/10 rounded-lg cursor-pointer hover:bg-slate-500/20 transition">
           <a
             href="/camara-comercio.pdf"
             download

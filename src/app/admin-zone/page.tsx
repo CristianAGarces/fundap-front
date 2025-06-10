@@ -68,8 +68,8 @@ export default function AdminPage() {
 
   if (showAuthError) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-        <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-2">
+        <div className="bg-white p-4 sm:p-8 rounded-lg shadow-lg text-center w-full max-w-md">
           <h2 className="text-2xl font-bold mb-4 text-red-600">
             Acceso restringido
           </h2>
@@ -77,7 +77,7 @@ export default function AdminPage() {
             Debes iniciar sesión como administrador para ver esta zona.
           </p>
           <button
-            className="bg-customGreen text-white px-6 py-2 rounded font-bold hover:bg-customYellow hover:text-black transition"
+            className="bg-customGreen text-white px-6 py-2 rounded font-bold hover:bg-customYellow hover:text-black transition w-full"
             onClick={() => router.push("/")}
           >
             Volver al inicio
@@ -90,7 +90,11 @@ export default function AdminPage() {
   return (
     <AdminZoneGuard>
       <MainLayout>
-        <DataTable columns={columns} data={users} />
+        <div className="w-full overflow-x-auto">
+          <div className="min-w-[700px]">
+            <DataTable columns={columns} data={users} />
+          </div>
+        </div>
       </MainLayout>
     </AdminZoneGuard>
   );

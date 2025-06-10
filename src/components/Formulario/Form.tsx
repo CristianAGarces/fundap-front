@@ -111,18 +111,18 @@ export default function Form() {
           futuro mejor.
         </p>
         <div className="flex flex-col md:flex-row w-full gap-8 items-start justify-center relative min-h-[500px]">
-          {/* Imagen de fondo alineada a la derecha y desenfocada */}
-          <div className="absolute inset-0 w-11/12 h-full z-0 flex justify-end ml-40">
+          {/* Imagen de fondo alineada a la derecha y desenfocada solo en md+ */}
+          <div className="hidden md:flex absolute inset-0 w-full h-full z-0 justify-end md:ml-40 pointer-events-none">
             <Image
               src="/inscripcion.png"
               width={1980}
               height={1280}
               alt="Formulario de inscripción"
-              className="object-contain md:object-right md:blur-sm md:opacity-80 w-full h-full"
+              className="object-cover md:object-right md:blur-sm md:opacity-80 w-full h-full"
             />
           </div>
           {/* Formulario por encima, alineado a la izquierda y sobresaliendo */}
-          <div className="bg-black/30 py-5 px-10 border-gray-300 border-2 rounded-lg shadow-lg w-full md:w-2/3 text-white z-10 relative md:mr-auto md:ml-[-4rem] md:mt-20 mt-10">
+          <div className="bg-black/30 py-5 px-4 sm:px-6 md:px-10 border-gray-300 border-2 rounded-lg shadow-lg w-full md:w-2/3 text-white z-10 relative md:mr-auto md:ml-[-4rem] md:mt-20 mt-10">
             <form className="mt-6 flex flex-col gap-4" onSubmit={handleSubmit}>
               <h2 className="text-start text-3xl font-extrabold text-white">
                 ¿Desea ser contactada?
@@ -130,8 +130,8 @@ export default function Form() {
               <p className="text-start text-2xl mb-4 font-bold text-white">
                 Para ser contactada, rellene por favor el siguente formulario.
               </p>
-              <div className="mb-4 flex grid-cols-2 gap-4 w-11/12">
-                <div className="w-9/12">
+              <div className="mb-4 flex flex-col md:flex-row gap-4 w-full">
+                <div className="w-full md:w-1/2">
                   <label
                     htmlFor="nombre"
                     className="block text-lg text-start font-medium mb-2"
@@ -150,7 +150,7 @@ export default function Form() {
                     className="w-full text-black outline-none p-2 border border-gray-300 rounded-lg"
                   />
                 </div>
-                <div className="w-9/12">
+                <div className="w-full md:w-1/2">
                   <label
                     htmlFor="apellido"
                     className="block text-start text-lg font-medium mb-2"
@@ -170,8 +170,8 @@ export default function Form() {
                   />
                 </div>
               </div>
-              <div className="mb-4 flex grid-cols-2 gap-4 w-11/12">
-                <div className="w-4/6">
+              <div className="mb-4 flex flex-col md:flex-row gap-4 w-full">
+                <div className="w-full md:w-1/2">
                   <label
                     htmlFor="type_document"
                     className="block text-start text-lg font-medium mb-2"
@@ -198,7 +198,7 @@ export default function Form() {
                     <option value="OTRO">Otro</option>
                   </select>
                 </div>
-                <div className="w-full">
+                <div className="w-full md:w-1/2">
                   <label
                     htmlFor="numero_documento"
                     className="block text-start text-lg font-medium mb-2"
@@ -220,8 +220,8 @@ export default function Form() {
                   />
                 </div>
               </div>
-              <div className="mb-4 flex grid-cols-2 gap-4 w-full">
-                <div className="w-1/4">
+              <div className="mb-4 flex flex-col md:flex-row gap-4 w-full">
+                <div className="w-full md:w-1/2">
                   <label
                     htmlFor="email"
                     className="block text-lg text-start font-medium mb-2"
@@ -240,7 +240,7 @@ export default function Form() {
                     className="w-full text-black outline-none p-2 border border-gray-300 rounded-lg"
                   />
                 </div>
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                   <label
                     htmlFor="telefono"
                     className="block text-start text-lg font-medium mb-2"
@@ -283,7 +283,7 @@ export default function Form() {
               </div>
               <button
                 type="submit"
-                className="bg-customYellow mx-auto text-white px-4 py-2 rounded hover:bg-customYellow/85 text-lg font-bold w-1/4"
+                className="bg-customYellow mx-auto text-white px-4 py-2 rounded hover:bg-customYellow/85 text-lg font-bold w-full md:w-1/4"
               >
                 {loading ? (
                   <span className="animate-spin">Enviando...</span>

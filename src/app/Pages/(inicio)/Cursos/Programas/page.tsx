@@ -22,7 +22,7 @@ export default function ProgramasPage() {
           </p>
         </div>
       </div>
-      <section>
+      <section className="mb-6">
         <div className="w-full mx-auto px-4 py-8 bg-customGreen text-white rounded-lg shadow-lg">
           <h2 className="text-3xl font-bold mb-6 text-center">
             Nuestros Programas
@@ -34,16 +34,16 @@ export default function ProgramasPage() {
             autonomía, conciencia social y oportunidades económicas.
           </p>
         </div>
-        <div className="w-full mx-auto px-4 py-8 bg-white rounded-lg mt-8">
+        <div className="w-full mx-auto px-4 py-4 bg-white rounded-lg mt-8">
           <h3 className="text-3xl text-center">📚 Modalidades</h3>
-          <ul className="list-disc list-inside space-y-4 w-2/3 p-10 text-lg mt-4">
+          <ul className="list-disc list-inside space-y-4 w- p-10 text-lg mt-4">
             <li>Presencial (en sedes comunitarias y centros culturales)</li>{" "}
             <li>Virtual (plataforma educativa en línea)</li>
             <li> Semipresencial (modelo híbrido)</li>
           </ul>
         </div>
-        <div className="flex mx-auto w-4/5 grid-cols-2 bg-white justify-center items-center p-6 mt-2">
-          <div className="flex -grid-cols-2 p-6">
+        <div className="flex flex-col md:flex-row w-4/5 mx-auto bg-white justify-center items-center">
+          <div className="flex w-full md:w-1/2">
             <Image
               src={"/imagen20.jpg"}
               alt="Curso de Cocina"
@@ -63,8 +63,7 @@ export default function ProgramasPage() {
               </ul>
             </div>
           </div>
-          <div className="flex -grid-cols-2">
-            {" "}
+          <div className="flex w-full md:w-1/2">
             <Image
               src={"/imagen23.jpg"}
               alt="Curso de Cocina"
@@ -85,8 +84,8 @@ export default function ProgramasPage() {
             </div>
           </div>
         </div>
-        <div className="flex grid-cols-2 w-4/5 mx-auto bg-white justify-center items-center p-6 mt-8">
-          <div className="flex -grid-cols-2 p-6">
+        <div className="flex flex-col md:flex-row w-4/5 mx-auto bg-white justify-center items-center">
+          <div className="flex w-full md:w-1/2">
             <Image
               src={"/imagen24.jpg"}
               alt="Curso de Cocina"
@@ -104,8 +103,7 @@ export default function ProgramasPage() {
               </ul>
             </div>
           </div>
-          <div className="flex -grid-cols-2">
-            {" "}
+          <div className="flex w-full md:w-1/2">
             <Image
               src={"/imagen25.jpg"}
               alt="Curso de Cocina"
@@ -126,8 +124,8 @@ export default function ProgramasPage() {
             </div>
           </div>
         </div>
-        <div className="flex grid-cols-2 w-4/5 mx-auto bg-white justify-center items-center p-6 mt-8">
-          <div className="flex -grid-cols-2 p-6">
+        <div className="flex flex-col md:flex-row w-4/5 mx-auto bg-white justify-center items-center">
+          <div className="flex w-full md:w-1/2">
             <Image
               src={"/imagen26.jpg"}
               alt="Curso de Cocina"
@@ -145,8 +143,7 @@ export default function ProgramasPage() {
               </ul>
             </div>
           </div>
-          <div className="flex -grid-cols-2">
-            {" "}
+          <div className="flex w-full md:w-1/2">
             <Image
               src={"/imagen27.jpg"}
               alt="Curso de Cocina"

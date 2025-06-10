@@ -29,7 +29,7 @@ export default function Inscripcion() {
             className="mt-4 mx-auto rounded-lg shadow-lg"
           />
         </section>
-        <section className="mb-8 flex grid-cols-2 p-4 gap-4 w-full bg-customGreen">
+        <section className="mb-8 grid sm:flex-col md:flex-col lg:flex-col p-4 gap-4 w-full bg-customGreen">
           <div className="flex-1">
             <h2 className="text-3xl font-bold mb-4">
               Beneficios de inscribirse

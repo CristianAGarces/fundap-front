@@ -20,7 +20,7 @@ export default function Home() {
             FundapMacoe es una organización dedicada a la promoción y defensa de
             los derechos de las mujeres afrodescendientes y otras etnias en
             Colombia. Nuestro objetivo es empoderar a estas comunidades y
-            fomentar su desarrollo integral.sdfsdfsdf
+            fomentar su desarrollo integral.
           </p>
           <Image
             src={Imagen6}
@@ -55,7 +55,7 @@ export default function Home() {
             nuestro compromiso con la comunidad y el bienestar de las mujeres
             afrodescendientes:
           </p>
-          <ul className="text-2xl list-inside list-none gap-5 font-bold flex justify-center mt-4 w-10/12 mx-auto">
+          <ul className="text-2xl list-inside list-none gap-5 grid font-bold justify-center mt-4 w-10/12 mx-auto sm:flex-col md:flex-col lg:flex-col lg:justify-around">
             <li> Equidad de genero</li>
             <li> Identidad culturar</li>
             <li> Desarrollo sostenible</li>
@@ -112,14 +112,14 @@ export default function Home() {
             desarrollan con enfoque participativo, étnico, de género y
             sostenibilidad. Algunos de estos son: sdfsdfsdf
           </p>
-          <ul className="list-disc list-inside space-y-4 w-2/3 mx-auto text-lg mt-4 text-white flex">
-            <li className="text-lg text-white mt-4">
+          <ul className="list-disc list-inside space-y-4 w-2/3 mx-auto text-lg mt-4 text-white grid sm:flex-col md:flex-col lg:flex-row lg:justify-around">
+            <li className="text-lg text-white">
               Desarrollo Ambiental y Territorial
             </li>
-            <li className="text-lg text-white mt-2">
+            <li className="text-lg text-white">
               Acceso Tecnológico y Alfabetización Digital
             </li>
-            <li className="text-lg text-white mt-2">
+            <li className="text-lg text-white">
               Formación en Habilidades Productivas y Emprendimiento
             </li>
           </ul>
@@ -154,27 +154,29 @@ export default function Home() {
           <h3 className="text-2xl font-bold mt-6 mb-2">
             Modalidades de los Cursos
           </h3>
-          <ul className="list-disc list-inside flex space-y-4 w-2/3 mx-auto text-lg mt-4">
+          <ul className="list-disc list-inside grid space-y-4 w-2/3 mx-auto text-lg mt-4 sm:flex-col md:flex-col lg:flex-col ">
             <li>Presencial (en sedes comunitarias y centros culturales)</li>
             <li>Virtual (plataforma educativa en línea)</li>
             <li>Semipresencial (modelo híbrido)</li>
           </ul>
         </section>
         <section className="text-center mx-auto px-4 py-6 bg-white">
-          <h2 className="text-4xl font-bold mb-4">Nuestras capacitaciones</h2>
-          <p>
+          <h2 className="text-4xl font-bold mb-4 sm:text-3xl">
+            Nuestras capacitaciones
+          </h2>
+          <p className="text-base sm:text-lg md:text-xl w-full sm:w-11/12 md:w-10/12 mx-auto">
             En fundapMacoe creemos firmemente que con dedicacion y firmeza
             podemos ayudar a las mujeres a lograr la igualdad entre genero y
             cumplir sus sueños y metas. Por eso, ofrecemos capacitaciones
             gratuitas en diversas áreas, incluyendo:sdsd
           </p>
-          <div className="flex w-full justify-center mt-4">
+          <div className="flex flex-wrap justify-center gap-4 mt-4 w-full">
             <Image
               src="/imagen21.jpg"
               alt="Capacitación"
               width={300}
               height={150}
-              className="mx-auto size-40 mt-4 shadow-lg"
+              className="mx-auto mt-4 shadow-lg rounded-lg w-full max-w-[180px] sm:max-w-[200px] md:max-w-[240px] lg:max-w-[300px] h-auto"
               priority
             />
             <Image
@@ -182,7 +184,7 @@ export default function Home() {
               alt="Capacitación"
               width={300}
               height={150}
-              className="mx-auto size-40 mt-4 shadow-lg"
+              className="mx-auto mt-4 shadow-lg rounded-lg w-full max-w-[180px] sm:max-w-[200px] md:max-w-[240px] lg:max-w-[300px] h-auto"
               priority
             />
             <Image
@@ -190,7 +192,7 @@ export default function Home() {
               alt="Capacitación"
               width={300}
               height={150}
-              className="mx-auto size-40 mt-4 shadow-lg"
+              className="mx-auto mt-4 shadow-lg rounded-lg w-full max-w-[180px] sm:max-w-[200px] md:max-w-[240px] lg:max-w-[300px] h-auto"
               priority
             />
             <Image
@@ -198,7 +200,7 @@ export default function Home() {
               alt="Capacitación"
               width={300}
               height={150}
-              className="mx-auto size-40 mt-4 shadow-lg"
+              className="mx-auto mt-4 shadow-lg rounded-lg w-full max-w-[180px] sm:max-w-[200px] md:max-w-[240px] lg:max-w-[300px] h-auto"
               priority
             />
             <Image
@@ -206,7 +208,7 @@ export default function Home() {
               alt="Capacitación"
               width={300}
               height={150}
-              className="mx-auto size-40 mt-4 shadow-lg"
+              className="mx-auto mt-4 shadow-lg rounded-lg w-full max-w-[180px] sm:max-w-[200px] md:max-w-[240px] lg:max-w-[300px] h-auto"
               priority
             />
           </div>
