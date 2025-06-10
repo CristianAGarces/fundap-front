@@ -110,7 +110,7 @@ export default function Home() {
             comunitarios y ambientales que aportan al bienestar de comunidades
             afrocolombianas y otras etnias vulnerables. Nuestros proyectos se
             desarrollan con enfoque participativo, étnico, de género y
-            sostenibilidad. Algunos de estos son: sdfsdfsdf
+            sostenibilidad. Algunos de estos son:
           </p>
           <ul className="list-disc list-inside space-y-4 w-2/3 mx-auto text-lg mt-4 text-white grid sm:flex-col md:flex-col lg:flex-row lg:justify-around">
             <li className="text-lg text-white">
@@ -168,7 +168,7 @@ export default function Home() {
             En fundapMacoe creemos firmemente que con dedicacion y firmeza
             podemos ayudar a las mujeres a lograr la igualdad entre genero y
             cumplir sus sueños y metas. Por eso, ofrecemos capacitaciones
-            gratuitas en diversas áreas, incluyendo:sdsd
+            gratuitas en diversas áreas, incluyendo:
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-4 w-full">
             <Image
