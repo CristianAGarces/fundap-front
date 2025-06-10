@@ -20,10 +20,10 @@ const contactItems: ContactItem[] = [
     icon: <Phone size={18} />,
     content: (
       <a
-        href="tel: +57 3002392123"
+        href="tel: +57 3177967846"
         className="hover:text-[#82E61E] transition-colors duration-300"
       >
-        +57 3002392123.
+        +57 3177967846.
       </a>
     ),
   },

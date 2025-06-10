@@ -14,7 +14,7 @@ export default function ContactPage() {
             <ul className="space-y-4 font-semibold ">
               <li>Representante Legal FUNDAPMACOE.</li>
               <li>TITO NELIO CUERO MURILLO</li>
-              <li>Teléfono: +57 3002392123.</li>
+              <li>Teléfono: +57 3177967846.</li>
               <li>Email: titocue@gmail.com</li>
               <li>
                 Dirección: Carrera 10 #8-31, Barrio San Carlos, Candelaria,
